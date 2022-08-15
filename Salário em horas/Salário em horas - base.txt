@@ -1,0 +1,31 @@
+Problema 1 
+
+Escreva um programa que retorna o valor hora de um funcionário com base no seu salário mensal e horas trabalhadas por mês.
+
+Os dados necessários de entrada são:
+- Salário Mensal.
+- Horas trabalhadas por mês.
+
+O que devo fazer com estes dados?
+- Devo usar eles para calcular o valor hora que um funcionário recebe usando o calculo mensal/horas trabalhadas.
+
+As restrições são:
+- Os valores devem ser entregues somente em formato de salário por hora.
+
+O resultado esperado: 
+- O valor hora que um funcionário recebe.
+
+Pseudocódigos:
+
+Input: palavra usada para receber dados do usuário
+Document.write: exibir o resultado no console
+If (condição): condicional que controla se algo deve ou não ser feito.
+Else: cláusula a ser exefcutada caso nenhuma condicional if seja executada.
+Loop de X a Y: laço de repetição que irá iterar X a Y.
+Loop X em Y: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+While X: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+
+Input salário_mensal
+Input horas_trabalhadas_por_mês
+valor_hora = salário_mensal/horas_trabalhadas_por_mês
+document.write valor_hora
