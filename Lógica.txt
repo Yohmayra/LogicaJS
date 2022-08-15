@@ -1,0 +1,108 @@
+Curso Lógica de Programação.
+
+Aula 1: Porque um software é criado?
+- Para criar soluções para problemas do dia-a-dia.
+- Automoção e otimização de processos.
+    - Automatizar tarefas na web: interagir, preencher ou buscar informações em sites.
+    - Automatizar criação, preenchimento, duplicação e envios de arquivos (planilhas, documentos, textos, pdf, imagens, etc...).
+    - Criação, leitura e envios de e-mails.
+    - Tarefas que use seu teclado e mouse.
+    - praticamente qualquer processo que é feito em um dispositivo pode ser automatizado parcial ou totalmente com a programação.
+
+Aula 2: Como software é criado do zero e onde a lógica encaixa nisso?
+- Ciclo de desenvolvimento de Software:
+ 1 - Idealização                    4 - Desenvolvimento e Teste
+ 2 - Especificação de Requisitos    5 - Implantação e Entrega
+ 3 - Validação da Solução
+
+1 - Idealização:
+Ideia sobre o projeto.
+
+2 - Especificação de Requisitos: 
+O que deve ou não ser feito.
+
+3 - Validação da Solução:
+Quais requisitos, definir os requisitos, verificar qual tipo do software.
+
+4 - Desenvolvimento e Teste:
+Começar a programar e testar.
+
+5 - Implantação e Entrega:
+Entrega do software ou projeto web.
+
+Aula 3: O problema que todo iniciante enfrenta:
+- Escreva o código com calma.
+- Resolva os mesmos problemas em situações diferentes.
+- Não se ache incapaz ou insuficiente. 
+- Você vai conseguir resolver problemas facilmente.
+
+Aula 4: Aprenda a resolver problemas através da análise crítica.
+
+Aula 5: O que são algoritimos e como montar algoritimos do zero?
+- Algoritimos são: Uma série de introduções a serem seguidas para resolver um problema.
+- Serão criados sempre que queremos montar uma sequência de passos necessários para solucionar algo.
+- A estratégia para montar um algoritimo, basta encontrar um problema a ser resolvido ou quando alguém te apresenta o problema.
+
+Método SQ's:
+- Analise criticamente o problema e descubra:
+    Quais são os dadps de entrada necessários?
+    O que devo fazer com estes dados?
+    Quais são as restrições deste problema?
+    Qual é o resultado esperado?
+    Qual é a sequência de passos a serem feitas para chegar ao resultado esperado?
+
+Aula 6: Quatro conceitos obrigátorios para ser capaz de resolver problemas!
+- Váriaveis
+- Condicionais
+- Laços de Repetição
+- Coleções
+
+- Váriaveis: Uma informação que precisa ser armazenada.
+- Condicionais: É a parte que realiza uma decisão, identificando outra condição para continuar.
+- Laços de Repetição: É um comado que repete a execução de algo quantas vezes for necessários, tendo um ponto inicial e um ponto final, podendo ter uma condição.
+- Coleções: É uma coleção de valores que estão armazenando em um único local.
+
+Aula 7: Criando soluções em Pseudocódigos do Básico ao Avançado.
+
+Pseudocódigos: 
+- É uma descrição dos passos necessários para resolver um determinado problema em uma linguagem natural, que não está ligada diretamente a uma linguagem de programação.
+
+Fluxograma:
+- Representação gráfica de um algoritimo
+Símbolos contidos em um Fluxograma:
+-   Linha de fluxo: indica o fluxo da lógica ao se conectar com os outros símbolos.
+-   Inicio/Fim: representa o inicio e o fim do fluxograma. 
+-   Entrada/Saída: usado para receber entrada e saída de dados.
+-   Processamento: usado para operações matemáticas ou manipulação de dados.
+-   Decisão: usado para tomada de decisão entre duas ou mais alternativas.
+
+Vantagens:
+- Fluxogramas podem ser mais intuitivos de entender para algumas pessoas.
+- podem abrir caminho para que pessoas não técnicas entrem no processo de design da solução.
+- caso tenha um processo altamente complexo, tentar o quebrar em passos menores em um fluxograma pode deixar 
+a lógica mais explícita e de fácil compreensão. 
+
+Desvantagens:
+- Caso tenha um processo altamente complexo, tentar o quebrarf em passos em um fluxograma pode levar muito
+mais tempo que o pseudocódigo.
+- o nível de detalhe da informação que é colocada em cada campo pode ter que ser simplificada para deixar
+o fluxograma mais legível.
+- ao tentar representar a lógica de um programa maior, terá um fluxograma possivelmente gigantesco e que não
+é facilmente lido.
+
+Variáveis: Não é permitido o nome da variável ser com símbolos, números, acentos e espaços.
+
+Obs: Para executar a função, digite o nome da função na ultima linha por exemplo:
+function fatorial(Valor){
+    if(Valor<0) {
+      document.write("O número deve ser posistivo e inteiro");
+    }
+    else{ 
+      var Resultado = 1;
+      for(var x =1; x<=Valor; x++) {
+      Resultado = Resultado * x;
+    }
+    document.write("O fatorial do número é: " + Resultado);
+    }
+  }
+fatorial(Numero);
