@@ -1,0 +1,34 @@
+Problema 3 
+
+Crie um programa que recebe dois valores e exibe qual é o maior entre eles 
+
+Os dados necessários de entrada são:
+- O primeiro valor
+- O segundo valor 
+
+O que devo fazer com estes dados?
+- Após receber os dois valores, devo os comparar e exibir qual é o maior entre eles.
+
+As restrições são:
+- Eu devo possuir dois números para que a comparação seja realizada.
+
+O resultado esperado:
+- Exibir na tela o maior valor entre os dois números.
+
+Pseudocódigos:
+
+Input: palavra usada para receber dados do usuário
+Document.write: exibir o resultado no console
+If (condição): condicional que controla se algo deve ou não ser feito.
+Else: cláusula a ser exefcutada caso nenhuma condicional if seja executada.
+Loop de X a Y: laço de repetição que irá iterar X a Y.
+Loop X em Y: laço de repetição que acontecerá enquanto uma condição for 
+verdadeira.
+While X: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+
+Input primeiro_valor
+Input segundo_valor
+If primeiro_valor > segundo_valor
+    document.write "O primeiro valor é maior"
+Else 
+    document.write "O segundo valor é maior"
