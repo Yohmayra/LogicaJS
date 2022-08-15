@@ -1,0 +1,38 @@
+Problema 5
+
+O programa deve informar se o chute foi acima, abaixo ou igual ao valor aleatório gerado no início do programa.
+
+Os dados necessários de entrada são:
+- Valores aleatórios de 1 a 10.
+- Chute ao usuário.
+
+O que devo fazer com estes dados?
+- Eu devo comparar o chute do usuário com o valor aleatório que foi gerado no início do programa e dizer se o chute foi maior,
+ou igual ao valor que foi gerado no início do programa.
+
+As restrições são: 
+- Um valor aleatório de 1 a 10.
+
+O resultado esperado:
+- É que o programa deve informar se o chute foi acima, abaixo ou igual ao valor aleatório gerado no início do programa.
+
+
+Pseudocódigos:
+
+Input: palavra usada para receber dados do usuário
+Document.write: exibir o resultado no console
+If (condição): condicional que controla se algo deve ou não ser feito.
+Else: cláusula a ser exefcutada caso nenhuma condicional if seja executada.
+Loop de X a Y: laço de repetição que irá iterar X a Y.
+Loop X em Y: laço de repetição que acontecerá enquanto uma condição for 
+verdadeira.
+While X: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+
+Input valoraleatorio de 1 a 10
+Input chute
+if chute > valoraleatorio
+    document.write "Chute foi maior que o valor gerado"
+If chute < valoraleatorio
+    document.write "Chute foi menor que o valor gerado"
+If chute = valoraleatorio
+    document.write "Você acertou"
