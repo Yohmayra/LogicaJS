@@ -1,0 +1,35 @@
+Problema 4
+
+Crie um programa que recebe um número e imprime seu fatorial
+
+Os dados necessários de entrada são: 
+- Números.
+
+O que devo fazer com estes dados?
+- Após receber um número devo multiplicar por todos seus antecessores, feito isso devo pegar estes resultados e o exibir.
+
+As restrições são:
+- O número deve ser um número inteiro
+- O número deve ser positivo.
+
+O resultado esperado:
+- É esperado que o fatorial do número recebido seja exibido.
+
+Pseudocódigos:
+
+Input: palavra usada para receber dados do usuário
+Document.write: exibir o resultado no console
+If (condição): condicional que controla se algo deve ou não ser feito.
+Else: cláusula a ser exefcutada caso nenhuma condicional if seja executada.
+Loop de X a Y: laço de repetição que irá iterar X a Y.
+Loop X em Y: laço de repetição que acontecerá enquanto uma condição for 
+verdadeira.
+While X: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+
+Input número
+If número < 0 
+    document.write "Digite apenas números positivos"
+fatorial = 1
+loop de 1 a número
+    fatorial = fatorial * número
+document.write "Resultado"

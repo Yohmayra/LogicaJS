@@ -1,0 +1,21 @@
+<hi> Números Fatoriais </hi>
+<script>
+  var nome =prompt("Digite seu nome");
+alert("Seja Bem Vindo Sr(a)" + nome);
+
+var Numero =prompt("Digite um número");
+function fatorial(Valor){
+    if(Valor<0) {
+      document.write("O número deve ser posistivo e inteiro");
+    }
+    else{ 
+      var Resultado = 1;
+      for(var x =1; x<=Valor; x++) {
+      Resultado = Resultado * x;
+    }
+    document.write("O fatorial do número é: " + Resultado);
+    }
+  }
+fatorial(Numero);
+
+</script>
