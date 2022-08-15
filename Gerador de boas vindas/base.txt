@@ -1,0 +1,31 @@
+Problema 2
+
+Gerador de boas vindas
+
+Os dados necessários de entrada são:
+- Crie um programa que pede ao usuário seu nome e depois o dá as boas-vindas dizendo "X seja bem vindo", onde X  é o nome do usuário.
+
+O que devo fazer com estes dados?
+- Após receber o nome do usuário, deve exibir uma mensagem que diz o nome do usuário + seja bem vindo.
+
+As restrições são:
+- Deve possuir um nome para que possa eibir quem estou apresentando.
+
+O resultado esperado:
+- Ao digitar o nome no campo solicitado, aparecer a mensagem com o nome do usuário + Seja Bem Vindo.
+
+Pseudocódigos:
+
+Input: palavra usada para receber dados do usuário
+Document.write: exibir o resultado no console
+If (condição): condicional que controla se algo deve ou não ser feito.
+Else: cláusula a ser exefcutada caso nenhuma condicional if seja executada.
+Loop de X a Y: laço de repetição que irá iterar X a Y.
+Loop X em Y: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+While X: laço de repetição que acontecerá enquanto uma condição for verdadeira.
+
+Input nome_do_usuario
+document.write nome_do_usuario + Seja Bem Vindo
+
+
+
