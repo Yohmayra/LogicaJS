@@ -1,0 +1,16 @@
+<script>
+    //Laços de repetição + Listas
+    //São usados para executar o mesmo comando várias vezes.
+
+var numero =prompt("Qual número você gostaria de multiplicar");
+var multiplicador =prompt("Até qual número gostaria de multiplicar");
+
+calculartabuada(numero,multiplicador);
+function calculartabuada(numero,multiplicador) {
+    for (var index = 0; index <= multiplicador; index++){
+        document.write(numero + "x" + index + "=" + (numero * index) + "<br>");
+}
+}
+
+</script>
+
