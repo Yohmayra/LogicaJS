@@ -1,0 +1,26 @@
+<h1>Medidor de Velocidade</h1>
+<script>
+var nome =prompt("Digite seu nome");
+alert("Seja Bem Vindo Sr(a)" + nome);
+
+var velocidade = parseInt(prompt("Digite o KM que estava digirindo."));
+
+function verificarvelocidade(){
+    var velocidademaxima = 80;
+
+    if(velocidade<=velocidademaxima){
+        console.log(velocidade<=velocidademaxima);
+        document.write("Não levou multa");
+    }else if(velocidade>velocidademaxima && velocidade<=velocidademaxima+10){
+        console.log(velocidade>=velocidademaxima+10);
+        document.write("Você levou uma multa leve");
+    }else if(velocidade>=velocidademaxima+11 && velocidade<=velocidademaxima+20){
+        console.log(velocidade>=velocidademaxima+20);
+        document.write("Você levou uma multa grave");
+    }else if(velocidade>velocidademaxima+20){
+        console.log(velocidade>=velocidademaxima+30);
+        document.write("Você levou uma multa gravíssima");
+} 
+}
+verificarvelocidade();
+</script>
