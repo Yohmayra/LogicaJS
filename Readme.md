@@ -1,1 +1,1 @@
-Curso de Lógica com JS + Html.
+Lógica com JS + Html.
