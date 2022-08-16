@@ -1,1 +1,1 @@
-Lógica com JS + Html.
+Lógica com JS + HTML.
